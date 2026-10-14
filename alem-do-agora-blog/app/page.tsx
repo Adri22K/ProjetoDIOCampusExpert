@@ -22,7 +22,8 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="eyebrow-line" /> UM ARTIGO SOBRE PROCESSO, NÃO PERFEIÇÃO</p>\n          <div className="project-badge"><img src="/dio-campus-expert.webp" alt="DIO Campus Expert 17" /><span>Uma reflexão sobre carreira e aprendizado</span></div>
+          <p className="eyebrow"><span className="eyebrow-line" /> UM ARTIGO SOBRE PROCESSO, NÃO PERFEIÇÃO</p>
+          <div className="project-badge"><img src="/dio-campus-expert.webp" alt="DIO Campus Expert 17" /><span>Uma reflexão sobre carreira e aprendizado</span></div>
           <h1><span>#AlémDoAgora</span><br />O lado da carreira que as redes sociais não mostram</h1>
           <p className="hero-description">
             Entre trabalho, faculdade e planos para o futuro, existe uma parte da trajetória
@@ -83,7 +84,7 @@ export default function Home() {
             </section>
           ))}
           <div className="closing-note">
-            <span className="closing-star">✳</span>
+            <span className="closing-star">☆</span>
             <p>Talvez você ainda esteja descobrindo seu caminho. Tudo bem. O importante é continuar construindo — sem esquecer de reconhecer o que já trouxe você até aqui.</p>
             <span className="closing-tag">#AlémDoAgora</span>
           </div>
