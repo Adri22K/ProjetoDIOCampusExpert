@@ -18,6 +18,31 @@ Ele foi criado para compartilhar reflexões sobre carreira, tecnologia, aprendiz
 [![My Skills](https://skillicons.dev/icons?i=nextjs,react,css,ts,vscode)](https://skillicons.dev)
 
 
+## ☁️ Acesse o projeto
+
+Projeto está hospedado utilizando o vercel. E pode ser acessado através do link: [blog](https://alem-do-agora-blog.vercel.app/) 
+
+
+## 📁 Estrutura do projeto
+
+```text
+alem-do-agora-blog/
+├── app/
+│   ├── globals.css       # Estilos, cores e responsividade
+│   ├── layout.tsx        # Layout geral e metadados
+│   └── page.tsx          # Página principal do blog
+├── content/
+│   └── article.json      # Conteúdo do artigo
+├── public/
+│   ├── dio-campus-expert.webp
+│   └── marca.png         # Imagens utilizadas no site
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+
+```
+
 ## 🚀 Executar localmente
 
 ### Pré-requisitos
@@ -46,38 +71,13 @@ Ele foi criado para compartilhar reflexões sobre carreira, tecnologia, aprendiz
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Inici[e o servidor de desenvolvimento:
 
    ```bash
    npm run dev
    ```
 
-5. Acesse [http://localhost:3000](http://localhost:3000) no navegador.
-
-
-## 📁 Estrutura do projeto
-
-```text
-alem-do-agora-blog/
-├── app/
-│   ├── globals.css       # Estilos, cores e responsividade
-│   ├── layout.tsx        # Layout geral e metadados
-│   └── page.tsx          # Página principal do blog
-├── content/
-│   └── article.json      # Conteúdo do artigo
-├── public/
-│   ├── dio-campus-expert.webp
-│   └── marca.png         # Imagens utilizadas no site
-├── .gitignore
-├── package.json
-├── tsconfig.json
-└── README.md
-
-```
-
-## ☁️ Acesse o projeto
-
-Projeto está hospedado utilizando o vercel. E pode ser acessado através do link: [blog](http://localhost:3000) 
+5. Acesse [http://localhost:3000](http://localhost:3000) no navegador.](https://alem-do-agora-blog.vercel.app/)
 
 
 ## 👩‍💻 Autoria
